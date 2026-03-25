@@ -1,17 +1,42 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>demo</title>
-    <style>
-       
-    </style>
+  <meta charset="utf-8">
+  <title>demo</title>
+  <style>
+    body {
+      background-image: url("what-the-hex.webp");
+    }
+
+    img {
+      border: 5px solid;
+      border-radius: 30px;
+      box-shadow: 10px 10px 20px rgb(0, 0, 0);
+      margin-left: auto;
+      margin-right: auto;
+      width: 900px;
+      display: block;
+      transition: scale 0.5s;
+    }
+
+    img:hover {
+      scale: 0.7;
+    }
+
+    div {
+      border: 5px solid;
+      height: 300px;
+      width: 300px;
+      background-image: url("green_cup.png");
+    }
+  </style>
 </head>
 
 <body>
   <img src="Kittens!.jpg" alt="A group of five kittens on a lawn" />
+  <p>These are some kittens</p>
+  <div>there is a box here</div>
 </body>
 
 </html>
