@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>demo</title>
+    <style>
+        div {
+            width: 400px;
+            height: 200px;
+            background-color: rgb(209, 48, 48);
+            margin: 50px;
+            border: 4px solid black;
+        }
+
+        #static {
+            background-color: blue;
+            position: static;
+        }
+
+        #sticky {
+            background-color: pink;
+            position: sticky;
+        }
+
+        #relative {
+            position: relative;
+            left: 50px;
+            top: 120px;
+            z-index: 2;
+        }
+
+        #fixed {
+            background-color: yellow;
+            position: fixed;
+            left: 200px;
+            top: 80px;
+        }
+
+        #absolute {
+            background-color: rgb(154, 53, 166);
+            position: absolute;
+            bottom: -300px;
+            left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="static"></div>
+    <div id="sticky"></div>
+    <div id="relative"></div>
+    <div id="fixed"></div>
+    <div id="absolute"></div>
+</body>
+
+</html>
